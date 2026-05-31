@@ -1,13 +1,14 @@
 {
-    "seed_urls": ["https://magazines.gorky.media"],
+    "seed_urls": ["https://magazines.gorky.media/neva/2004/11.html"],
     "headers": {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+        "Cookie": "_ym_uid=1779014341521520861; _ym_d=1779014341; _ym_isad=1; _ym_visorc=w; _gid=GA1.2.240178959.1780146222; _ga_3XESJ90HR0=GS2.1.s1780146323$o1$g1$t1780146884$j11$l0$h0; _gat_gtag_UA_82430416_1=1; _ga_TJVRRJ1E29=GS2.1.s1780146222$o2$g1$t1780147486$j59$l0$h0; _ga=GA1.1.1919635574.1779014341",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
     },
-    "total_articles_to_find_and_parse": 100,
+    "total_articles_to_find_and_parse": 20,
     "encoding": "utf-8",
-    "timeout": 3,
+    "timeout": 8,
     "should_verify_certificate": true,
-    "headless_mode": true
+    "headless_mode": false
 }
