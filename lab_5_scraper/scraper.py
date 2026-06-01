@@ -374,8 +374,7 @@ class HTMLParser:
             article_soup (bs4.BeautifulSoup): BeautifulSoup instance
         """
         divs = article_soup.find_all("div", class_=["article-body"])
-        if not divs:
-            return
+
         text_blocks = []
 
         for div in divs:
