@@ -385,6 +385,12 @@ class HTMLParser:
                 if tag_text:
                     text_blocks.append(tag_text)
 
+        if not text_blocks:
+            for tag in article_soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "p"]):
+                tag_text = tag.get_text(strip=True)
+                if tag_text:
+                    text_blocks.append(tag_text)
+
         self.article.text = "\n".join(text_blocks)
 
     def _fill_article_with_meta_information(self, article_soup: BeautifulSoup) -> None:
